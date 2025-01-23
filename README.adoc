@@ -1,0 +1,29 @@
+= Full Stack Node.js Semester Plan
+
+== About the course
+
+link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the course]
+
+== Semester Plan
+
+[width="100%",cols="15%,7%,23%,30%,25%",options="header",]
+|===
+| Title | Date | Description | Learning Goals | Resources and Activities
+
+| 01. Introduction
+| Feb. 31st
+a|
+* Intro to the course. Information about the mandatories / exam. Expectations.
+* Intro to Node.js.
+* Variables, data types
+* Intro Exercises.
+* REST API conventions
+* Code conventions / Clean Code
+a|
+
+a|
+
+
+
+|===
+
