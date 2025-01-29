@@ -28,6 +28,10 @@ Here are some useful tips regarding [debugging](/00._Course_Material/00._Meta_Co
 
 Prerequisite to go to the exam.
 
+1. **Mandatory I**: Create a documentation website. Start documenting now!
+
+2. **Mandatory II**: Create an auth system.
+
 ### Exam Project
 
 Solo or in groups. This is a large full-stack project that is different from the other projects. The requirements are basic so consider something you really want to build and put the hours into. A solid project is a good start for the exam.
@@ -48,5 +52,12 @@ Besides deeply personal matters all communication should be in the Teams channel
 
 Co-pilot is an excellent tool and I recommend that you use it in your future endeavours but for this course I highly recommend that you refrain from using it. Arguments:
 
-- Rather than focusing on its suggestion you should focus on understanding the syntax. 
+- Co-pilot takes focus away from what is being explained in class.
+
+- Rather than learning to choose, you should question and understand. 
+
+- You should know how to write the syntax.
+
 - During the exam you will be live coding and co-pilot is not an option. 
+
+- It is extremely obvious when you bring code solved by AI to the exam. Don't do that. 
