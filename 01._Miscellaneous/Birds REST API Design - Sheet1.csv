@@ -1,0 +1,7 @@
+Endpoint,HTTP Verb,Description
+/birds,GET,Retrieves all birds
+/birds/{id},GET,Retrieves a single bird
+/birds,POST,Creates a single bird resource
+/birds/{id},PUT,Updates a single bird resource
+/birds/{id},PATCH,Updates part of a bird resource
+/birds/{id},DELETE,Deletes a single bird resource
