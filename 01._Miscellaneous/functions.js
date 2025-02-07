@@ -42,5 +42,4 @@ function sleepingAction(name) {
 console.log(genericPerformer("Andreas", sleepingAction));
 
 
-// assignment: the desired result is: tara owns at boxing
-// assignment: write it all as a one-liner
+console.log(genericPerformer("Tara", (name) => `${name} owns at boxing`));
