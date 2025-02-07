@@ -33,5 +33,28 @@ link:00._Course_Material/01._Assignments/01._Introduction/REST_API_Design.md[RES
 link:00._Course_Material/01._Assignments/01._Introduction/Introduction_Exercises.md[Introduction Exercises]
 
 
+| 02. First Server
+| Feb. 7th
+a|
+* Code conventions / Clean Code (Strict Mode - ESLint)
+* Variables and Functions
+* Callback functions
+* Build tools
+* Package.json
+* Express
+* Sending data with GET requests
+a|
+* Understand scoping in Javascript and know to always use const if you can get away with it otherwise let.
+* Understand advanced things about functions in Javascript
+* Can write callback functions with different syntax.
+* Understands the function of NPM and can compare it with other package managers. 
+* Understands the different purposes of package.json and can set it up by hand.
+* Can create a server with Express from memory.
+* Understands how to send data with GET requests over HTTP and knows how to do it in Express.
+* Understands node_modules.
+a|
+link:00._Course_Material/01._Assignments/02._First_Server/REST_API_Part_I.md[FingerBones REST API - Part I]
+
+
 |===
 
