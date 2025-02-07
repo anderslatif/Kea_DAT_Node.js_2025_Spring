@@ -39,7 +39,7 @@ a|
 * Code conventions / Clean Code (Strict Mode - ESLint)
 * Variables and Functions
 * Callback functions
-* Build tools
+* Build tools and package managers
 * Package.json
 * Express
 * Sending data with GET requests
