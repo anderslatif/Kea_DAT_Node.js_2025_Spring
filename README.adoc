@@ -11,7 +11,7 @@ link:00._Course_Material/00._Meta_Course_Material/about_the_course.md[About the 
 | Title | Date | Description | Learning Goals | Resources and Activities
 
 | 01. Introduction
-| Feb. 31st
+| Jan. 31st
 a|
 * Intro to the course. Information about the mandatories / exam expectations.
 * Intro to Node.js.
