@@ -56,7 +56,7 @@ a|
 link:00._Course_Material/01._Assignments/02._First_Server/REST_API_Part_I.md[FingerBones REST API - Part I]
 
 
-| 03. Serving HTML Files
+| 03. Loop methods
 | Feb. 14th
 a|
 * Nodemon
