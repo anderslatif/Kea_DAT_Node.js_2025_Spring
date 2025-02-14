@@ -1,0 +1,18 @@
+
+
+
+protocol    domain     endpoint
+https://www.google.com/search?hl=en&q=my%20search
+        subdomain  top-level domain
+
+
+        path variable
+/search/1
+
+
+        query string
+/search?hl=en&q=my%20search
+        query parameter
+
+                                                  fragment
+https://en.wikipedia.org/wiki/Association_football#Duration_and_tie-breaking_methods
