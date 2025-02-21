@@ -2,14 +2,14 @@ const express = require('express');
 
 const app = express();
 
-let visitorCount = 0;
+let visitorsCount = 0;
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/frontpage.html");
 });
 
-app.get("/visitorcounts", (req, res) => {
-    res.send({ data: ++visitorCount });
+app.get("/visitorscounts", (req, res) => {
+    res.send({ data: ++visitorsCount });
 });
 
 const PORT = 8080;

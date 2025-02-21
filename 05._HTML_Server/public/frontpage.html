@@ -26,10 +26,17 @@
     <h2 class="headers" style="color: green">Welcome users!</h2>
 
 
+    <p>You are the visitor number:</p>
+    <div id="visitorsCount"></div>
 
     <!-- <script src="./frontpage.js"></script> -->
     <script>
-        // assignment: fetch the visitors count and show it on the page
+        fetch("/visitorscounts")
+        .then((response) => response.json())
+        .then((result) => {
+            const visitorsCountDiv = document.getElementById("visitorsCount");
+            visitorsCountDiv.textContent = result.data;
+        });
     </script>
 </body>
 </html>
