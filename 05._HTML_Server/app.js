@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-let visitorsCount = 0;
+let visitorsCount = 123440;
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/frontpage.html");
