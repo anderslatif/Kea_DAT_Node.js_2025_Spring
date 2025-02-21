@@ -27,6 +27,7 @@ a|
 * Understands type coercion and strategies to avoid it.
 * Can design a REST API.
 * Knows the three REST conventions we follow: 1. Using the right HTTP verb, 2. Ordering, 3. Naming (noun, plural) that maps to collections in your system.
+* While using a linter is not a requirement, having clean code is
 a|
 link:00._Course_Material/01._Assignments/01._Introduction/REST_API_Design.md[REST API Design Wines]
 
@@ -78,6 +79,21 @@ a|
 link:00._Course_Material/01._Assignments/03._Serving_HTML_Files/CSS_Grid_Flexbox.md[CSS_Grid_Flexbox]
 
 link:00._Course_Material/01._Assignments/03._Serving_HTML_Files/REST_API_Part_II.md[FingerBones REST API - Part II]
+
+| 04. HTML / Time
+| Feb. 21st
+a|
+* CRUDable REST API - Part II
+* Time
+* Deployment
+* Fetch
+a|
+* Can create a full CRUDable REST API that follows conventions.
+* Can get the Date in Javascript.
+* Can write a fetch request without hesitation.
+a|
+link:00._Course_Material/01._Assignments/04._Time/Time_To_Deploy.md[Time to deploy]
+
 
 |===
 
