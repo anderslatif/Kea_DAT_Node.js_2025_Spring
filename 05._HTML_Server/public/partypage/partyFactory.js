@@ -5,3 +5,5 @@ function partyFactory(partyName) {
     };
 }
 
+// export const partyFactoryExport = partyFactory;
+export default partyFactory;

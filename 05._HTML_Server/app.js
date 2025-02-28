@@ -1,7 +1,12 @@
-const express = require('express');
+// const express = require('express');
+import express from 'express';
 
-const { parties } = require('./util/partiesLibrary.js');
+import path from 'path';
+
+// const { parties } = require('./util/partiesLibrary.js');
 // console.log(parties);
+
+import partiesLibraryESModules from './util/partiesLibraryES.js';
 
 const app = express();
 
@@ -10,11 +15,11 @@ app.use(express.static('public'));
 let visitorsCount = 123440;
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/public/frontpage/frontpage.html");
+    res.sendFile(path.resolve("public/frontpage/frontpage.html"));
 });
 
 app.get("/partypage", (req, res) => {
-    res.sendFile(__dirname + "/public/partypage/partyPage.html");
+    res.sendFile(path.resolve("public/partypage/partyPage.html"));
 });
 
 app.get("/visitorscounts", (req, res) => {
