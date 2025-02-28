@@ -1,11 +1,18 @@
 const express = require('express');
 
+const { parties } = require('./util/partiesLibrary.js');
+// console.log(parties);
+
 const app = express();
 
 let visitorsCount = 123440;
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/public/frontpage.html");
+    res.sendFile(__dirname + "/public/frontpage/frontpage.html");
+});
+
+app.get("/partypage", (req, res) => {
+    res.sendFile(__dirname + "/public/partypage/partypage.html");
 });
 
 app.get("/visitorscounts", (req, res) => {
