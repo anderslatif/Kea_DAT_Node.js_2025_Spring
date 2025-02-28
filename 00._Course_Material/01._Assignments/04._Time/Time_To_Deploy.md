@@ -45,3 +45,9 @@ If you experience caching problems in Vercel (solved by hard refresh) then add t
 res.set('Cache-Control', 'no-store'); // Prevent caching
 ```
 
+### Storing data on the server
+
+Deploying on Vercel is free or costs little because it is Serverless. That means that it doesn't run a server all the time but creates an instance on-demand. 
+
+The result is that storing data in variables on the server will not be kept once the server shuts down. If you want to store data, then it should be done externally, which we haven't touched upon yet.
+

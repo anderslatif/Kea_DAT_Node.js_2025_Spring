@@ -94,6 +94,23 @@ a|
 a|
 link:00._Course_Material/01._Assignments/04._Time/Time_To_Deploy.md[Time to deploy]
 
+| 05. Export / Import
+| Feb. 28th
+a|
+* Exporting and importing in frontend (type="module" attribute).
+* Commonjs vs. ES Modules in Node.js.
+* Serving static files in Express.
+* Fetching in the client vs. fetching in the backend.
+* Structuring HTML with semantic HTML (header, main, footer).
+a|
+* Can work with both types of import/export in HTML.
+* Can import/export in both ways in Node.js
+* Understands the security need for serving static files and can do it in Express.
+* Can argue for a better way to structure the frontend (assets, pages) and how to structure HTML.
+a|
+link:00._Course_Material/01._Assignments/00._Mandatories/Mandatory_I.md[Mandatory I (Given)]
+
+link:https://github.com/anderslatif/VercelShowcaseServingStaticFiles[How to serve static files with Vercel]
 
 |===
 
