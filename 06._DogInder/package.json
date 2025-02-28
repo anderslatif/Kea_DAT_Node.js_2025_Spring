@@ -1,0 +1,31 @@
+{
+  "name": "doginder",
+  "version": "0.0.1",
+  "description": "Tinder for Indian dogs",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderslatif/Kea_DAT_Node.js_2025_Spring.git"
+  },
+  "keywords": [
+    "tinder",
+    "dog",
+    "dogs",
+    "indian",
+    "match-making",
+    "love"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderslatif/Kea_DAT_Node.js_2025_Spring/issues"
+  },
+  "homepage": "https://github.com/anderslatif/Kea_DAT_Node.js_2025_Spring#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

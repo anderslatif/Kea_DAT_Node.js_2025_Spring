@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <meta http-equiv="refresh" content="3;/partypage" /> 
+
+
     <!-- 3. link to external CSS file  -->
     <link rel="stylesheet" href="/frontpage/frontpage.css">
 
@@ -29,8 +32,20 @@
     <p>You are the visitor number:</p>
     <div id="visitorsCount"></div>
 
+    <!-- anchor tag -->
+    <a href="/partypage">Have a party time!!!</a>
+
+
     <script src="/frontpage/frontpage.js"></script>
     <script>
+        // task: after 3 seconds dynamically/programmatically go to the partypage
+
+        // setTimeout(() => {
+        //     // window.location.href = "/partypage"
+        //     window.location.replace("/partypage");
+        // }, 3000);
+
+
         fetch("/visitorscounts")
         .then((response) => response.json())
         .then((result) => {

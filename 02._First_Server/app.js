@@ -40,6 +40,10 @@ app.get("/favoritethings/:favoriteFlower/:favoriteAnimal", (req, res) => {
     res.send({ data: `Your favorite flower is ${req.params.favoriteFlower} and your favorite animal is ${req.params.favoriteAnimal}` });
 });
 
+app.get("/redirecttofavoritethings", (req, res) => {
+    res.redirect("/favoritethings/tulips/sea lions");
+});
+
 
 app.post("/favoritepoliticians", (req, res) => {
 

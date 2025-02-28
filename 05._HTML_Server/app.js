@@ -6,7 +6,7 @@ import path from 'path';
 // const { parties } = require('./util/partiesLibrary.js');
 // console.log(parties);
 
-import partiesLibraryESModules from './util/partiesLibraryES.js';
+// import partiesLibraryESModules from './util/partiesLibraryES.js';
 
 const app = express();
 
