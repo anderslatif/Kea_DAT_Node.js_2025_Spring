@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- 3. link to external CSS file  -->
-    <!-- <link rel="stylesheet" href="./frontpage.css"> -->
+    <link rel="stylesheet" href="/frontpage/frontpage.css">
 
     <!-- 2. CSS in style tag -->
     <style>
@@ -29,7 +29,7 @@
     <p>You are the visitor number:</p>
     <div id="visitorsCount"></div>
 
-    <!-- <script src="./frontpage.js"></script> -->
+    <script src="/frontpage/frontpage.js"></script>
     <script>
         fetch("/visitorscounts")
         .then((response) => response.json())

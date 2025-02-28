@@ -1,0 +1,2 @@
+// assignment change/add 1 line to import the partyFactory in the partyPage.js
+// assignment: additionally, you can add 1 more line to console.log
