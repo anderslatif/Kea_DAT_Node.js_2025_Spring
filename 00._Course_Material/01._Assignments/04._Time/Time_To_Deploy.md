@@ -51,3 +51,10 @@ Deploying on Vercel is free or costs little because it is Serverless. That means
 
 The result is that storing data in variables on the server will not be kept once the server shuts down. If you want to store data, then it should be done externally, which we haven't touched upon yet.
 
+---
+
+# GitHub Classroom Quirks
+
+You hand in by pushing in the GitHub Classroom repo created when you press the green `Accept the Assignment` button. I will make the repository private as default. If you want to share the code or deploy to Vercel then you should fork the repository to your own user. You cannot deploy to Vercel under my user since you don't have sufficient permissions. 
+
+Remember: You hand-in when you push. You can push multiple times. 
