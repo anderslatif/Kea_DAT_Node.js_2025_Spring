@@ -69,11 +69,11 @@ a|
 a|
 * Understands the use case for Nodemon and its limitation for development.
 * Can use loop methods (+map, +filter, %reduce). Can choose the right one at the appropriate time:
-    We wish to use loop methods and in a functional manner (avoiding side effects).
-    for loops are for finger counting.
+    - We wish to use loop methods and in a functional manner (avoiding side effects).
+    - Only use for loops in JavaScript when finger counting.
 * Understands why a functional approach to loops is to be preferred and how to implement it without side effects.
 * Can use the right terminology when it comes to the different parts of an URL.
-* Can make a POST request and handle it in Express.
+* Can make a POST request and parse it in Express.
 * Understands the need for body parsing and how to do it in Express.
 a|
 link:00._Course_Material/01._Assignments/03._Serving_HTML_Files/CSS_Grid_Flexbox.md[CSS_Grid_Flexbox]
@@ -100,17 +100,23 @@ a|
 * Exporting and importing in frontend (type="module" attribute).
 * Commonjs vs. ES Modules in Node.js.
 * Serving static files in Express.
-* Fetching in the client vs. fetching in the backend.
-* Structuring HTML with semantic HTML (header, main, footer).
+* Client-side redirection vs. server-side redirection.
+// todo Move redirection down to the next week and do more project setup this week.
+* npm init and meta data in package.json.
 a|
 * Can work with both types of import/export in HTML.
-* Can import/export in both ways in Node.js
+* Can import/export in both ways in Node.js (CommonJS and ES Modules). Understands the pros of using ES Modules.
 * Understands the security need for serving static files and can do it in Express.
 * Can argue for a better way to structure the frontend (assets, pages) and how to structure HTML.
+* Can recount the number of ways and approaches to redirection. 
+* Understands the difference between client-side redirection and server-side. 
 a|
 link:00._Course_Material/01._Assignments/00._Mandatories/Mandatory_I.md[Mandatory I (Given)]
 
 link:https://github.com/anderslatif/VercelShowcaseServingStaticFiles[How to serve static files with Vercel]
 
-|===
 
+
+
+
+|===
