@@ -20,3 +20,7 @@ body {
 main {
     flex: 1;
 }
+
+#dog-matches-image {
+    max-height: 40vh;
+}

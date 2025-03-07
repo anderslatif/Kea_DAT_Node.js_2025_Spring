@@ -1,12 +1,15 @@
 
-export function getMatches() {
-   fetch("https://dog.ceo/api/breeds/image/random")
-   .then((response) => response.json())
-   .then((result) => console.log(result.message));
+export async function getMatches(numberOfMatches = 2) {
+    const promises = [];
+    for (let i = 0; i < numberOfMatches; i++) {
+        const promise = fetch("https://dog.ceo/api/breeds/image/random")
+        .then((response) => response.json());
+        promises.push(promise);
+    }
+    const results = await Promise.all(promises);
+    const matches = results.map((result) => ({ image: result.message }))
+    return matches;
 }
 
-function getMatch() {
-
-}
 
 

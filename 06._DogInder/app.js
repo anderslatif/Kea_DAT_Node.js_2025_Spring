@@ -17,8 +17,8 @@ app.get("/matches", (req, res) => {
 });
 
 app.get("/api/matches", async (req, res) => {
-    await getMatches();
-    res.send({ data: [] });
+    const matches = await getMatches();
+    res.send({ data: matches });
 });
 
 
