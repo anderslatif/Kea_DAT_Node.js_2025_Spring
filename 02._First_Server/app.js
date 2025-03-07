@@ -45,6 +45,20 @@ app.get("/redirecttofavoritethings", (req, res) => {
 });
 
 
+app.get("/proxy", (req, res) => {
+    fetch("https://www.google.com")
+    .then((response) => response.text())
+    .then((result) => res.send(result));
+    // fetch("https://google.com")
+    // .then((response) => response.arrayBuffer())
+    // .then((buffer) => {
+    //     const decoder = new TextDecoder('iso-8859-1');
+    //     const text = decoder.decode(buffer);
+    //     res.send(text);
+    // });
+});
+
+
 app.post("/favoritepoliticians", (req, res) => {
 
     console.log(req.body);
@@ -52,7 +66,13 @@ app.post("/favoritepoliticians", (req, res) => {
     res.send({ data: req.body });
 });
 
-// assignment create a new route and send some data to it through the body
+
+
+
+
+/* assignment
+create a /proxy endpoint that calls the google homepage and returns the page to the client
+*/
 
 
 app.listen(8080);
