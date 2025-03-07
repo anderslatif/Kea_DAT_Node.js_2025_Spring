@@ -23,5 +23,4 @@ function createMatchImage(dog) {
 
     dogMatchesImageContainerDiv.innerHTML = "";
     dogMatchesImageContainerDiv.appendChild(imageTag);
-
 }

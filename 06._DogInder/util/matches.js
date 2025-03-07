@@ -7,7 +7,7 @@ export async function getMatches(numberOfMatches = 2) {
         promises.push(promise);
     }
     const results = await Promise.all(promises);
-    const matches = results.map((result) => ({ image: result.message }))
+    const matches = results.map((result) => ({ image: result.message, name: "Fido" }))
     return matches;
 }
 
