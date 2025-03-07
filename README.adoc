@@ -116,7 +116,25 @@ link:00._Course_Material/01._Assignments/00._Mandatories/Mandatory_I.md[Mandator
 link:https://github.com/anderslatif/VercelShowcaseServingStaticFiles[How to serve static files with Vercel]
 
 
-
-
+// | 06. Client vs. Server / Environment Variables / Routers
+| 06. Client vs. Server / Environment Variables
+| Mar. 7th
+a|
+* Environment Variables.
+* Package.json scripts.
+* Fetching in Node.js.
+* Semantic HTML: header, main, footer.
+// * Routers (Express).
+a|
+* Fetching in the client vs. fetching in the backend.
+* Know how to define environment variables natively in Node.js (natively = not using any libraries).
+* Can define and run scripts with NPM.
+* Structuring HTML with semantic HTML. Knows how to avoid having a footer in the middle of the page. 
+* Can point to which files are client files and which are server files.
+* Understands one way to style a footer so that it appears at the bottom, always.
+// * Can argue for better ways to structure the code and how to avoid files that are too long.
+// * Can create an Express Router by heart.
+a|
+Work on the mandatory: Set up pages. Add lots of documentation. Implement styling including how to display code snippets.
 
 |===
