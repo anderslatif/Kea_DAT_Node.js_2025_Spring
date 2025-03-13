@@ -133,8 +133,25 @@ a|
 a|
 Work on the mandatory: Set up pages. Add lots of documentation. Implement styling including how to display code snippets.
 
-// * Routers (Express).
-// * Can argue for better ways to structure the code and how to avoid files that are too long.
-// * Can create an Express Router by heart.
+
+| 07. Server-side Rendering (SSR) / Routers
+| Mar. 14th
+a|
+* Server-side rendering vs. client-side rendering.
+* Reading files.
+* Nodemon ext.
+* Routers (Express).
+a|
+* Understands how code and its placement affects application memory and efficiency.
+* Understands the arguments for and against SSR vs. CSR when it comes to:
+1. Load time.
+2. Ressources spent (duration, when and where).
+3. SEO.
+4. Dealing with CORS. (SSR has no CORS issues.)
+* Can argue for better ways to structure the code and how to avoid files that are too long.
+* Can create an Express Router by heart.
+a|
+
+
 
 |===
