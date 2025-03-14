@@ -7,12 +7,12 @@ export function readPage(path) {
 const header = readPage('./public/components/header/header.html')
 const footer = readPage('./public/components/footer/footer.html');
 
-export function constructPage(pageContent, title, cssLinks) {
+export function constructPage(pageContent, options={}) {
     return header
-            .replace('$NAV_TITLE$', title || 'DogInder')
-            .replace('$CSS_LINKS$', cssLinks || '')
+            .replace('$NAV_TITLE$', options.title || 'DogInder')
+            .replace('$CSS_LINKS$', options.cssLinks || '')
         + pageContent 
         + footer;
 }
 
-// todo favicon
+
