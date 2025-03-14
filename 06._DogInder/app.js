@@ -5,11 +5,16 @@ const app = express();
 app.use(express.static("public"));
 
 import path from 'path';
+import fs from 'fs';
 
 import { getMatches } from './util/matches.js';
 
+const frontpage = fs.readFileSync('./public/frontpage/frontpage.html').toString();
+const matches = fs.readFileSync('./public/matches/matches.html').toString();
+
+
 app.get("/", (req, res) => {
-    res.sendFile(path.resolve('public/frontpage/frontpage.html'));
+    res.send(frontpage);
 });
 
 app.get("/matches", (req, res) => {
