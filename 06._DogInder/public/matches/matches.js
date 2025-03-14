@@ -1,23 +1,28 @@
 let dogs = [];
 
-// assignment import the rest of the headers and update them with the profile info
-
 const dogMatchesNameH1 = document.getElementById("dog-matches-name");
+const dogMatchesBioh3 = document.getElementById("dog-matches-bio");
+const dogMatchesCityH4 = document.getElementById("dog-matches-city");
+const dogMatchesStreetAddressH4 = document.getElementById("dog-matches-street-address");
 const dogMatchesImageContainerDiv = document.getElementById("dog-matches-image-container");
+
 
 function getMatches() {
     fetch("/api/matches")
     .then((response) => response.json())
     .then((result) => {
         dogs = result.data;
-        createMatchImage(dogs.pop());
+        createMatchProfile(dogs.pop());
     });
 }
 
 getMatches();
 
-function createMatchImage(dog) {
+function createMatchProfile(dog) {
     dogMatchesNameH1.textContent = dog.name;
+    dogMatchesBioh3.textContent = dog.bio;
+    dogMatchesCityH4.textContent = dog.city;
+    dogMatchesStreetAddressH4.textContent = dog.streetAddress;
 
     const imageTag = document.createElement("img");
     imageTag.src = dog.image;
@@ -50,7 +55,7 @@ function setupHammerPanEvents(dogImageTag) {
             // todo: Handle end of left drag here
         }
         if (dogs.length > 0) {
-            createMatchImage(dogs.pop());
+            createMatchProfile(dogs.pop());
         } else {
             getMatches();
         }

@@ -1,6 +1,6 @@
 import { fakerEN_IN } from "@faker-js/faker";
 
-export async function getMatches(numberOfMatches = 2) {
+export async function getMatches(numberOfMatches = 5) {
     const promises = [];
     for (let i = 0; i < numberOfMatches; i++) {
         const promise = fetch("https://dog.ceo/api/breeds/image/random")
