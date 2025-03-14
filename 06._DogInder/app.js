@@ -5,18 +5,11 @@ const app = express();
 app.use(express.static("public"));
 
 import path from 'path';
-import fs from 'fs';
+
+
+import { frontpagePage, matchesPage } from './util/pages.js';
 
 import { getMatches } from './util/matches.js';
-
-const header = fs.readFileSync('./public/components/header/header.html').toString();
-const footer = fs.readFileSync('./public/components/footer/footer.html').toString();
-
-const frontpage = fs.readFileSync('./public/frontpage/frontpage.html').toString();
-const matches = fs.readFileSync('./public/matches/matches.html').toString();
-
-const frontpagePage = header + frontpage + footer;
-const matchesPage = header + matches + footer;
 
 app.get("/", (req, res) => {
     res.send(frontpagePage);
