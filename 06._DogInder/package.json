@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/anderslatif/Kea_DAT_Node.js_2025_Spring#readme",
   "dependencies": {
+    "@faker-js/faker": "^9.6.0",
     "express": "^4.21.2"
   },
   "devDependencies": {

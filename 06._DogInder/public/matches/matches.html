@@ -10,15 +10,19 @@
 </head>
 <body>
     <nav>
-        <a href="/"><img id="logo" src="/assets/images/logo.png"></a>
+        <a href="/"><img id="logo" src="/assets/images/logo.png"  alt="doginder logo"></a>
         <a href="/matches">Matches</a>
     </nav>
 
 
     <main>
-        <h1>Matches</h1>
+        <h4>Matches</h4>
 
         <h1 id="dog-matches-name"></h1>
+        <h3 id="dog-matches-bio"></h3>
+        <h4 id="dog-matches-city"></h4>
+        <h4 id="dog-matches-street-address"></h4>
+        
         <div id="dog-matches-image-container"></div>
     </main>
 
@@ -27,6 +31,9 @@
     </footer>
     <script src="/assets/js/footer.js"></script>
 
+    <!-- Firefox has problems with detecting dragend: https://github.com/hammerjs/hammer.js/issues/692 -->
+    <!-- Don't upgrade beyond version 2.0.1 https://github.com/hammerjs/hammer.js/releases/tag/2.0.1 -->
+    <script src="/matches/hammer.js"></script>
     <script src="/matches/matches.js"></script>
 </body>
 </html>
