@@ -153,6 +153,15 @@ a|
 a|
 link:00._Course_Material/01._Assignments/07._Server-side_Rendering_(SSR)_Routers/Svelte_interactive_tutorials_introduction_props.md[Svelte interactive tutorials  (introduction / props)]
 
+| 08. Forms / First Svelte Project
+| Mar. 21st
+a|
+* Forms 
+* First Svelte Project
+* XSS
+a|
+
+a|
 
 
 |===
