@@ -1,4 +1,6 @@
 <script>
+    import FirstMessage from "./FirstMessage.svelte";
+
     const messages = $state([]);
 
     let messageInput = $state("");
@@ -17,3 +19,4 @@
 
 <button onclick={addMessage}>Add Message</button>
 
+<FirstMessage firstMessage={messages[0]}></FirstMessage>
