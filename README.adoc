@@ -159,9 +159,18 @@ a|
 * Forms 
 * First Svelte Project
 * XSS
+* Client Routing (Svelte Navigator)
 a|
+* Can create a Svelte project from scratch with `npm create vite`.
+* Understands the structure of a Svelte project and can explain it what each file does.
+* Undestands what XSS is and how to prevent it.
+* Understand and can set up client routing in a web framework.
+a|
+link:00._Course_Material/01._Assignments/08._Forms_First_Svelte_Project/send_emails.md[Send Emails]
 
-a|
+link:00._Course_Material/01._Assignments/08._Forms_First_Svelte_Project/register_domain_emails/register_domain_emails.md[Optional: Register Domain + Emails]
+
+link:00._Course_Material/01._Assignments/08._Forms_First_Svelte_Project/Svelte_interactive_tutorials_II.md[Svelte interactive tutorials II]
 
 
 |===
