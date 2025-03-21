@@ -26,5 +26,9 @@ app.get("/visitorscounts", (req, res) => {
     res.send({ data: ++visitorsCount });
 });
 
+app.get("/dangerouspage", (req, res) => {
+    res.sendFile(path.resolve("public/dangerouspage/dangerouspage.html"));
+});
+
 const PORT = 8080;
 app.listen(PORT, () => console.log("Server is running on port", PORT));
