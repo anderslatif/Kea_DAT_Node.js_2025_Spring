@@ -8,13 +8,9 @@ Send emails but beware:
 
 * **NEVER** push credentials, API keys, secrets or passwords to Git. 
 
-## Suggestion 1: Resend
+Do not spend too much time on this assignment. Go with the easiest way if you are stuck.
 
-Easiest solution and sends out actual emails: 
-
-https://www.resend.com
-
-## Suggestion 2: Nodemailer
+## Suggestion 1: Nodemailer
 
 https://nodemailer.com/
 
@@ -49,14 +45,45 @@ console.log('Message sent: %s', info.messageId);
 console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 ```
 
-### [Optional] Send actual emails
+---
+
+## Option 2: Resend
+
+If you have a domain, getting started with resend is really easy and works nicely.
+
+https://www.resend.com
+
+---
+
+## [Option 3] Use Gmail
 
 It is not required to configure Nodemailer with an actual SMTP server. For instance, you could use Gmail to act as an SMTP server that sends out emails.  
 
-If you use Gmail then remember to turn on “less secure apps”. For security reasons this has become harder in recent years but there are ways around it. 
+In Gmail the old way was to enable "Less Secure Apps". Now, use: **Generate an App password**:
+
+https://www.youtube.com/watch?v=MkLX85XU5rU
+
+**Prerequisites**: Requires 2FA (phone verification for instance) and also a recovery email. 
+
+I recommend that you create a new email for this instead of using your personal one. Google does not allow you to spoof the “from” email key.
+
+It will show the app password in 4 character chunks with space in between. The password needs to be without those spaces. 
+
+Here is what to write with Nodemailer:
+
+```javascript
+    auth: {
+        user: ‘<your_account>@gmail.com', 
+        pass: ‘<‘your_pass>
+    }
+```
+
+That’s it!
 
 NEVER use your personal email with Nodemailer and be careful not to leak the credentials by pushing them to pubilc Git repositories. 
 
+Please check your spam.
+
 ## Suggestion 3: Other
 
-Sendgrid, Mailgun, Amazon SES etc.  
+Sendgrid, Twillio, Mailgun, Amazon SES etc. 
