@@ -151,8 +151,7 @@ a|
 * Can argue for better ways to structure the code and how to avoid files that are too long.
 * Can create an Express Router by heart.
 a|
-link:00._Course_Material/01._Assignments/07._Server-side_Rendering_(SSR)_Routers/Svelte_interactive_tutorials_introduction_props.md[Svelte interactive tutorials  (introduction / props)]
-
+link:00._Course_Material/01._Assignments/07._Server-side_Rendering_Routers/Svelte_interactive_tutorials_introduction_props.md[Svelte interactive tutorials  (introduction / props)]
 | 08. Forms / First Svelte Project
 | Mar. 21st
 a|
