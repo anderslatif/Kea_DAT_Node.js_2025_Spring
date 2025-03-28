@@ -11,5 +11,5 @@
 
 
 {#each children as child (child.name)}
-    <Child name={child.name} />
+    <Child {...child} />
 {/each}
