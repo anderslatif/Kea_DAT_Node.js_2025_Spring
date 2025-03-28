@@ -1,5 +1,6 @@
 <script>
   import Home from "./components/Home/Home.svelte";
+    import Parent from "./components/Parent/Parent.svelte";
 
   const parentNames = ["Adam", "Eva"];
   const children = [
@@ -20,5 +21,6 @@
 </script>
 
 <Home>
-  <h1>Hello? Anyone in there?</h1>
+  <Parent name={parentNames[0]} children={children} />
+  <Parent name={parentNames[1]} children={children} />
 </Home>
