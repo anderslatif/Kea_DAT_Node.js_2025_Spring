@@ -1,6 +1,8 @@
 <script>
     import Child from "../Child/Child.svelte";
 
+    import { fridgeMessages } from "../../stores/fridgeMessagesStore.js";
+
     const { name: parentName, children } = $props();
 
     function handleShowLove(childName) {
@@ -17,12 +19,17 @@
         }
     }
 
+    // function wipe() {
+    //     fridgeMessages.set([]);
+    // }
+
 </script>
 
 
 <h1>{parentName}</h1>    
 
 
+<button onclick={fridgeMessages.wipe}>Wipe Fridge</button>
 
 <p>
     {#each cookieJar as cookie}
