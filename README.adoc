@@ -195,7 +195,7 @@ a|
 * Rate-limiter
 * Express session
 * Dotenv
-link:/Users/anders/code/kea/Kea_DAT_Node.js_2025_Spring/00._Course_Material/01._Assignments/10._Security_Middleware[DotEnv Svelte]
+* Readable stores vs. link:00._Course_Material/01._Assignments/10._Security_Middleware/svelte_dotenv.md[Svelte DotEnv]
 * Bcrypt
 a|
 * Understands how middleware works in Express, why order matters and how to use it to your advantage. 
