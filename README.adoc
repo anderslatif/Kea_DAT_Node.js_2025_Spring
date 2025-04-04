@@ -163,7 +163,7 @@ a|
 a|
 * Can create a Svelte project from scratch with `npm create vite`.
 * Understands the structure of a Svelte project and can explain it what each file does.
-* Undestands what XSS is and how to prevent it.
+* Understand the dangers of XSS and how to prevent it in frontend (avoiding innnerHTML) and backend (sanitizing).
 a|
 link:00._Course_Material/01._Assignments/08._Forms_First_Svelte_Project/send_emails.md[Send Emails]
 
@@ -194,22 +194,24 @@ a|
 * Writing custom middleware in Express.
 * Rate-limiter
 * Express session
-* Dotenv
-* Readable stores vs. link:00._Course_Material/01._Assignments/10._Security_Middleware/svelte_dotenv.md[Svelte DotEnv]
 * Bcrypt
 a|
 * Understands how middleware works in Express, why order matters and how to use it to your advantage. 
 * Can use a rate-limiter.
-* Understands how server sessions work.
-* Understand the dangers of XSS and how to prevent it in frontend (avoiding innnerHTML) and backend (sanitizing).
-* Understands the role of Dotenv.
+* Understands how sessions work on the server.
 * Can argue about the pros and cons of JWT vs. session. 
 a|
 link:00._Course_Material/01._Assignments/00._Mandatories/Mandatory_II.md[Mandatory II Given]
 
 Mandatory II: Make a choice between JWT or sessions. Either way, you should be informed of the pros and cons of each choice. Create the backend and setup the relevant middleware. Add security to the backend. 
 
+// * Dotenv
+// * Readable stores vs. link:00._Course_Material/01._Assignments/10._Security_Middleware/svelte_dotenv.md[Svelte DotEnv]
+
 // * Client Routing link:https://www.npmjs.com/package/svelte-routing[Svelte Routing]
 // * Understand and can set up client routing in a web framework.
+
+// * Understands the role of Dotenv.
+
 
 |===

@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 const router = Router();
- 
+
 router.get("/session/fillbananas", (req, res) => {
     req.session.bananasCount = (req.session.bananasCount + 1) || 1;
 
