@@ -8,7 +8,7 @@ const router = Router();
 //     next();
 // }
 
-// router.use(greetLoggedInUsers);
+// router.use("/auth", greetLoggedInUsers);
 
 function isAdmin(req, res, next) {
     // this simulates requesting a database if the user is admin
