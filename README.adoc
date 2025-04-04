@@ -188,7 +188,7 @@ link:00._Course_Material/01._Assignments/09._Svelte_Family/toast_notifications.m
 link:00._Course_Material/01._Assignments/09._Svelte_Family/login_signup.md[Login / Signup]
 
 
-| 10. Security / Middleware
+| 10. Middleware / Security
 | Apr. 12th
 a|
 * Writing custom middleware in Express.
