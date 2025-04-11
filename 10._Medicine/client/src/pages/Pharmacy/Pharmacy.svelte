@@ -6,7 +6,7 @@
     import { BASE_URL } from "../../stores/generalStore.js";
     import { fetchGet, fetchPost } from "../../util/fetch.js";
 
-    let pills = [];
+    let pills = $state([]);
 
     onMount(async () => {
         pills = (await fetchGet($BASE_URL+"/pills")).data;
@@ -24,6 +24,8 @@
 
 <Employees />
 
-<h2>{pills}</h2>
+{#each pills as pill}
+    <h3>{pill.name}</h3>
+{/each}
 
 <button onclick={fillPrescription}>Fill Prescription</button>
