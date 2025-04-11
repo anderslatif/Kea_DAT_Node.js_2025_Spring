@@ -2,6 +2,30 @@ import express from 'express';
 
 const app = express();
 
+app.use(express.json());
+
+// import cors from 'cors';
+// app.use(cors({
+// }));
+
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
+
+
+import dotenv from 'dotenv/config';
+import session from 'express-session';
+
+app.use(session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false }
+  }));
+
+
 import employeesRouter from './routers/employeesRouter.js';
 app.use(employeesRouter);
 import pillsRouter from './routers/pillsRouter.js';
