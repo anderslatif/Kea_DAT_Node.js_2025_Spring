@@ -1,3 +1,7 @@
+// import dotenv from 'dotenv';
+// dotenv.config();
+import 'dotenv/config';
+
 import express from 'express';
 
 const app = express();
@@ -17,9 +21,7 @@ app.use(helmet());
 
 import session from 'express-session';
 
-// import dotenv from 'dotenv';
-// dotenv.config();
-import dotenv from 'dotenv/config';
+
 
 app.use(session({
     secret: process.env.SESSION_SECRET,
