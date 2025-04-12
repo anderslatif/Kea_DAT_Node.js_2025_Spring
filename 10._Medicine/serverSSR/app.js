@@ -22,19 +22,6 @@ app.use(employeesRouter);
 import pillsRouter from './routers/pillsRouter.js';
 app.use(pillsRouter);
 
-import livereload from 'livereload';
-import connectLivereload from 'connect-livereload';
-
-const liveReloadServer = livereload.createServer();
-liveReloadServer.watch('../client/dist');
-liveReloadServer.server.once("connection", () => {
-  setTimeout(() => {
-      liveReloadServer.refresh("/");
-  }, 1000);
-});
-
-app.use(connectLivereload()); 
-
 import path from 'path';
 
 app.get("/{*splat}", (req, res) => {
