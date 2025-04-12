@@ -208,8 +208,6 @@ Mandatory II: Make a choice between JWT or sessions. Either way, you should be i
 
 
 
-
-
 | 11. Fullstack
 | Apr. 11th
 a|
@@ -217,7 +215,6 @@ a|
 * Client Routing link:https://www.npmjs.com/package/svelte-routing[Svelte Routing]
 * Readable stores vs. link:00._Course_Material/00._Meta_Course_Material/svelte_dotenv/svelte_dotenv.md[Svelte DotEnv]
 * link:00._Course_Material/00._Meta_Course_Material/cors/CORS.md[CORS]
-// todo * Asynchronous code in Javascript.
 a|
 * Understands the role of Dotenv and is able to differentiate it from environment variables in Node.js.
 * Understands client routing in SPAs.
@@ -225,9 +222,10 @@ a|
 * Can solve CORS issues in Express.
 * Understands why CORS exists and the situations that trigger it.
 * Understand how CSR and SSR deals with CORS and session id.
-* link:00._Course_Material/00._Meta_Course_Material/plain_svelte_ssr/plain_svelte_ssr.md[Knows how to SSR Svelte from Express.]
-// todo * Can work with promises and async/await. Understand why asynchronous code is relevant in Node.js.
+* Knows how to serve Svelte from Express with `vite build --watch`.
 a|
 Mandatory II: Setup the full stack project, create routing in the frontend and setup protected routes. Create fetches between the frontend and backend. Hard code data in the backend for now.  
+
+
 
 |===
