@@ -14,11 +14,11 @@ https://github.com/kbrgl/svelte-french-toast
 
 # [Option 1] Setting up Toastr (Plain HTML)
 
-This option shows how to set up Toastr in a plain HTML project.
+This option shows how to set up Toastr in a plain HTML project. This option avoids relying on the CDN by adding the files manually.
 
 1. **Get Toastr**: 
 
-Get the CDN link from [the repo](https://github.com/CodeSeven/toastr) and link it in your `index.html`. 
+Find the Javascript CDN link in [the repo](https://github.com/CodeSeven/toastr). Paste the content into a `toastr.js` file and link to it in your `index.html`. 
 
 2. **Add the CSS file** manually:
 
