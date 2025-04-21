@@ -39,7 +39,7 @@ import 'toastr/build/toastr.min.css';
 4. If you are in a Web Framework like Svelte, then write the following in your `App.svelte` file:
 
 ```javascript
-    import toastr from 'toastr';
-    toastr.info('Notice');
-    toastr.warning('Warning');
+import toastr from 'toastr';
+toastr.info('Notice');
+toastr.warning('Warning');
 ```
