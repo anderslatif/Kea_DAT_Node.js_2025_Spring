@@ -12,31 +12,48 @@ https://github.com/kbrgl/svelte-french-toast
 
 ---
 
-# Setting up Toastr (how to include the CSS file)
+# [Option 1] Setting up Toastr (Plain HTML)
 
-1. Install Toastr via npm:
+This option shows how to set up Toastr in a plain HTML project.
+
+1. **Get Toastr**: 
+
+Get the CDN link from [the repo](https://github.com/CodeSeven/toastr) and link it in your `index.html`. 
+
+2. **Add the CSS file** manually:
+
+Find the minified CSS file in [the repo](https://github.com/CodeSeven/toastr). Paste it into a CSS file in your project and import it. 
+
+3. **Import the CSS file** in a `<link>` tag in your `index.html` file. 
+
+4. **Use it**. Since the CDN link loads the library into the global scope, you can use it directly in your JavaScript file. 
+
+```javascript
+toastr.info('Notice');
+toastr.warning('Warning');
+```
+
+---
+
+# [Option 2] Setting up Toastr (in Svelte with Vite)
+
+This option shows how to set up Toastr in a project that comes with a bundler like Vite.
+
+1. **Install Toastr** via npm:
 
 ```bash
 $ npm install toastr
 ```
 
-2. You need to add the CSS file manually. You can either do:
+2. **Add the CSS file** by finding it in the `node_modules` folder: `toastr/build/toastr.min.css`.
 
-* Find the minified CSS file in [the repo](https://github.com/CodeSeven/toastr). Paste it into a CSS file in your project and import it. 
-
-* Or you can find it in the `node_modules` folder: `toastr/build/toastr.min.css`. 
-
-3. In order to import it, you can either:
-
-* Point to the CSS file in a `<link>` tag in your `index.html` file:
-
-* Import it in your main JavaScript file (e.g., `main.js` for Svelte):
+3. **Import the CSS file** in your main JavaScript file (`main.js` in Svelte):
 
 ```javascript
 import 'toastr/build/toastr.min.css';
 ```
 
-4. If you are in a Web Framework like Svelte, then write the following in your `App.svelte` file:
+4. **Use it**. you need to import the library in the component. Try this in your `App.svelte` file:
 
 ```javascript
 import toastr from 'toastr';
