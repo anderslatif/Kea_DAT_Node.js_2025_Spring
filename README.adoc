@@ -227,5 +227,26 @@ a|
 Mandatory II: Setup the full stack project, create routing in the frontend and setup protected routes. Create fetches between the frontend and backend. Hard code data in the backend for now.  
 
 
+| 12. SQL
+| Apr. 25th
+a|
+* Sqlite
+* DDL / DML
+* Asynchronous code in Javascript.
+* MySQL
+a|
+* Can work with relational databases.
+* Can write basic SQL queries.
+* Understands the difference between DDL and DML.
+* Can work with promises and async/await. Understand why asynchronous code is relevant in Node.js.
+a|
+Mandatory II: Finish the mandatory. 
+
+I recommend that you watch this multiple times:
+link:https://www.youtube.com/watch?v=W2Z7fbCLSTw[Video: Database Paradigms]
+
+link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requirements]
+
+
 
 |===
