@@ -1,3 +1,0 @@
-# Plain Svelte SSR
-
-// todo

@@ -45,7 +45,7 @@ This option shows how to set up Toastr in a project that comes with a bundler li
 $ npm install toastr
 ```
 
-2. **Add the CSS file** by finding it in the `node_modules` folder: `toastr/build/toastr.min.css`.
+2. **Find the CSS file** in the `node_modules` folder: `toastr/build/toastr.min.css`.
 
 3. **Import the CSS file** in your main JavaScript file (`main.js` in Svelte):
 
