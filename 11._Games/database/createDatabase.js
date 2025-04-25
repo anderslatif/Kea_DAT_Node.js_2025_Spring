@@ -1,7 +1,7 @@
 import db from './connection.js';
 
 // db.all for SELECT statements, we want to get something back
-// db.run for INSERT, UPDATE, DELETE, nothing gets return
+// db.run for INSERT, UPDATE, DELETE, doesn't return data
 // db.exec for schematics without parameters, can contain multiple commands
 
 const deleteMode = process.argv.includes("--delete");
