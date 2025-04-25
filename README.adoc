@@ -238,7 +238,7 @@ a|
 * MySQL
 a|
 * Can work with relational databases.
-* Can write basic SQL queries.
+* Can write basic SQL queries without help.
 * Understands the difference between DDL and DML.
 * Can work with promises and async/await. Understand why asynchronous code is relevant in Node.js.
 a|
