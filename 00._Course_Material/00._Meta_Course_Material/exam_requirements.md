@@ -40,7 +40,7 @@ These are the minimum requirement. The project must contain these elements:
 
 * You must make an attempt at styling your website. Styling frameworks can be used. User experience is important too. 
 
-## Bonus:
+## Optional:
 
 * Host your application.
 
