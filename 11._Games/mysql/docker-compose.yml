@@ -1,0 +1,19 @@
+services:
+    mysql:
+        image: mysql:8.0
+        container_name: mysql
+        restart: unless-stopped
+        environment:
+            MYSQL_ROOT_PASSWORD: rootpass
+            MYSQL_DATABASE: appdb
+            MYSQL_USER: appuser
+            MYSQL_PASSWORD: apppass
+        ports:
+        # Note! Non-standard port mapping for MySQL since I already have MySQL running on 3306 on my host
+            - "3307:3306"
+        volumes:
+            - mysql_data:/var/lib/mysql
+            - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+
+volumes:
+    mysql_data:
