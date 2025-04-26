@@ -6,7 +6,7 @@ This example runs a MySQL server instance in a Docker container. The setup is de
 
 The database is initialized with the schema as defined in [`schema.sql`](./schema.sql). The file also seeds the database with some initial data.
 
-The MySQL driver, `mysql2` has been installed. 
+Node.js uses the `mysql2` package as the MySQL driver. 
 
 ---
 
@@ -37,7 +37,7 @@ MYSQL_PORT=3307
 $ npm install
 ```
 
-4. Run the example:
+4. Run the file:
 
 ```bash
 $ node ./showcaseMySQL.js
