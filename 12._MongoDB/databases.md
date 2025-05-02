@@ -1,10 +1,11 @@
-Database Paradigms
+# Database Paradigms
 
-Relational Databases
-====================
+---
 
-SQL 
-------------
+## Relational Databases
+
+# SQL 
+
 MariaDB
 PostgreSQL
 Sqlite
@@ -12,38 +13,40 @@ mssql
 Oracle MySQL 
 MySQL
 
-No-SQL
-======
+---
 
-Document
----------
+## No-SQL
+
+
+### Document
+
 MongoDB
 Cloud Firestore
 
 
-Wide-column store
-------------------
+### Wide-column store
+
 Cassandra
 
 
-Graph
-------
+### Graph
+
 ArrangoDB
 Neo4J
 
 
-Vector
-------
+### Vector
+
 Pinecone
 MongoDB Atlas
 
 
-Key-Value Store
-----------------
+### Key-Value Store
+
 Redis
 
 
-Object Databases
-----------------
+### Object Databases
+
 Realm 
 

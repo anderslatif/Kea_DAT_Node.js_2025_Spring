@@ -1,3 +1,5 @@
+## Structure
+
 MySQL     vs.      MongoDB
 Database           Database
 Table              Collection
@@ -27,9 +29,7 @@ SQL, validation happens in the database layer
 MySQL                 vs.              MongoDB
 CREATE DATABASE <database_name>        use <database_name> 
 CREATE TABLE <table_name>              db.createCollection("<collection_name>")
-
-Shorthand: db.<collection_name>
-
+DROP TABLE <table_name>                db.<collection_name>.drop()
 
 ## Crud
 
