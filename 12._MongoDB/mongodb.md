@@ -38,5 +38,6 @@ MySQL                 vs.              MongoDB
 SELECT                                 find({ <key>: <search_criteria> })
 INSERT                                 insertOne, insertMany, bulkWrite
 UPDATE                                 updateOne({"search criteria"}, { $set: { "update with" } }) , updateMany
+                                       replaceOne, replaceMany (completely overwrites the document)
 DELETE                                 deleteOne, deleteMany
 
