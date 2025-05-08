@@ -266,4 +266,31 @@ a|
 * Can use MongoDB in Node.js given a code snippet for how to set it up.
 a|
 
+| 13. MongoDB
+| May 2nd
+a|
+* Database paradigms
+* Mongodb vs. relational.
+* MongoDB in shell. 
+* MongoDB in Node.js
+* MongoDB in cloud (Atlas)
+a|
+* Knows different database paradigms. 
+* Can argue in what cases Mongodb excels and when it is the right choice. 
+* Can contrast and compare relational databases and Mongodb.
+* Understands the moving part of Mongodb (database, shell, driver). 
+* Can do basic CRUD with MongoDB by heart.
+* Can use MongoDB in Node.js given a code snippet for how to set it up.
+a|
+
+| 14. Sockets
+| May 9th
+a|
+* Web sockets with Socket.io in HTML and Svelte
+a|
+* Understands what Websockets are and the problem they solve.
+* Can work with Socket.io in both client and server.
+* Can listen to and emit events without having to look it up.
+a|
+
 |===
