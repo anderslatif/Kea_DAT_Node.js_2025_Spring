@@ -17,7 +17,7 @@ link:00._Course_Material/00._Meta_Course_Material/exam_requirements.md[Exam Requ
 a|
 * Intro to the course. Information about the mandatories / exam expectations.
 * Intro to Node.js.
-* Variables, data types
+* Variables, data types.
 * Intro Exercises.
 * Our REST API conventions vs. Richardson Maturity Model
 * Code conventions / Clean Code
@@ -29,7 +29,7 @@ a|
 * Understands type coercion and strategies to avoid it.
 * Can design a REST API.
 * Knows the three REST conventions we follow: 1. Using the right HTTP verb, 2. Ordering, 3. Naming (noun, plural) that maps to collections in your system.
-* While using a linter is not a requirement, having clean code is
+* While using a linter is not a requirement, having clean code is.
 a|
 link:00._Course_Material/01._Assignments/01._Introduction/REST_API_Design.md[REST API Design Wines]
 
@@ -39,16 +39,16 @@ link:00._Course_Material/01._Assignments/01._Introduction/Introduction_Exercises
 | 02. First Server
 | Feb. 7th
 a|
-* Code conventions / Clean Code (Strict Mode - ESLint)
-* Variables and Functions
-* Callback functions
-* Build tools and package managers
-* Package.json
-* Express
-* Sending data with GET requests
+* Code conventions / Clean Code (Strict Mode - ESLint).
+* Variables and Functions.
+* Callback functions.
+* Build tools and package managers.
+* Package.json.
+* Express.
+* Sending data with GET requests.
 a|
 * Understand scoping in Javascript and know to always use const if you can get away with it otherwise let.
-* Understand advanced things about functions in Javascript
+* Understand advanced things about functions in Javascript.
 * Can write callback functions with different syntax.
 * Understands the function of NPM and can compare it with other package managers. 
 * Understands the different purposes of package.json and can set it up by hand.
@@ -64,9 +64,9 @@ link:00._Course_Material/01._Assignments/02._First_Server/REST_API_Part_I.md[Fin
 a|
 * Nodemon
 * Loops and loop methods in JS.
-* CRUDable REST API - Part I
-* Anatomy of an URL
-* All the ways to send data from a client to a server
+* CRUDable REST API - Part I.
+* Anatomy of an URL.
+* All the ways to send data from a client to a server.
 * Serving HTML in Express.
 a|
 * Understands the use case for Nodemon and its limitation for development.
@@ -85,10 +85,10 @@ link:00._Course_Material/01._Assignments/03._Serving_HTML_Files/REST_API_Part_II
 | 04. HTML / Time
 | Feb. 21st
 a|
-* CRUDable REST API - Part II
-* Time
-* Deployment
-* Fetch
+* CRUDable REST API - Part II.
+* Time.
+* Deployment.
+* Fetch.
 a|
 * Can create a full CRUDable REST API that follows conventions.
 * Can get the Date in Javascript.
@@ -102,8 +102,7 @@ a|
 * Exporting and importing in frontend (type="module" attribute).
 * Commonjs vs. ES Modules in Node.js.
 * Serving static files in Express.
-* Client-side redirection vs. server-side redirection.
-// todo Move redirection down to the next week and do more project setup this week.
+* Client-side redirection vs. server-side redirection..
 * npm init and meta data in package.json.
 a|
 * Can work with both types of import/export in HTML.
@@ -129,7 +128,7 @@ a|
 * Fetching in the client vs. fetching in the backend.
 * Know how to define environment variables natively in Node.js (natively = not using any libraries).
 * Can define and run scripts with NPM.
-* Structuring HTML with semantic HTML. Knows how to avoid having a footer in the middle of the page. 
+* Structuring HTML with semantic HTML. Knows how to avoid having a footer in the middle of the page.
 * Can point to which files are client files and which are server files.
 * Understands one way to style a footer so that it appears at the bottom, always.
 a|
@@ -149,7 +148,7 @@ a|
 1. Load time.
 2. Ressources spent (duration, when and where).
 3. SEO.
-4. Dealing with CORS. (SSR has no CORS issues.)
+4. Dealing with CORS (SSR has no CORS issues).
 * Can argue for better ways to structure the code and how to avoid files that are too long.
 * Can create an Express Router by heart.
 a|
@@ -159,9 +158,9 @@ link:00._Course_Material/01._Assignments/07._Server-side_Rendering_Routers/Svelt
 | 08. Forms / First Svelte Project
 | Mar. 21st
 a|
-* Forms 
-* First Svelte Project
-* XSS
+* Forms.
+* First Svelte Project.
+* XSS.
 a|
 * Can create a Svelte project from scratch with `npm create vite`.
 * Understands the structure of a Svelte project and can explain it what each file does.
@@ -177,8 +176,8 @@ link:00._Course_Material/01._Assignments/08._Forms_First_Svelte_Project/Svelte_i
 | 09. Svelte Family
 | Mar. 28th
 a|
-* Passing data between components. 
-* Svelte stores
+* Passing data between components.
+* Svelte stores.
 a|
 * Understand the tree structure of web frameworks (parent/child). 
 * Fully understand the different ways to pass data in Svelte. Can code it too.
@@ -194,9 +193,9 @@ link:00._Course_Material/01._Assignments/09._Svelte_Family/login_signup.md[Login
 | Apr. 4th
 a|
 * Writing custom middleware in Express.
-* Rate-limiter
-* Express session
-* Bcrypt
+* Rate-limiter.
+* Express session.
+* Bcrypt.
 a|
 * Understands how middleware works in Express, why order matters and how to use it to your advantage. 
 * Can use a rate-limiter.
@@ -213,10 +212,10 @@ Mandatory II: Make a choice between JWT or sessions. Either way, you should be i
 | 11. Fullstack
 | Apr. 11th
 a|
-* Dotenv
-* Client Routing link:https://www.npmjs.com/package/svelte-routing[Svelte Routing]
-* Readable stores vs. link:00._Course_Material/00._Meta_Course_Material/svelte_dotenv/svelte_dotenv.md[Svelte DotEnv]
-* link:00._Course_Material/00._Meta_Course_Material/cors/CORS.md[CORS]
+* Dotenv.
+* Client Routing link:https://www.npmjs.com/package/svelte-routing[Svelte Routing].
+* Readable stores vs. link:00._Course_Material/00._Meta_Course_Material/svelte_dotenv/svelte_dotenv.md[Svelte DotEnv].
+* link:00._Course_Material/00._Meta_Course_Material/cors/CORS.md[CORS].
 a|
 * Understands the role of Dotenv and is able to differentiate it from environment variables in Node.js.
 * Understands client routing in SPAs.
@@ -226,16 +225,16 @@ a|
 * Understand how CSR and SSR deals with CORS and session id.
 * Knows how to serve Svelte from Express with `vite build --watch`.
 a|
-Mandatory II: Setup the full stack project, create routing in the frontend and setup protected routes. Create fetches between the frontend and backend. Hard code data in the backend for now.  
+Mandatory II: Setup the full stack project, create routing in the frontend and setup protected routes. Create fetches between the frontend and backend. Hard code data in the backend for now.
 
 
 | 12. SQL
 | Apr. 25th
 a|
-* Sqlite
-* DDL / DML
+* Sqlite.
+* DDL / DML.
 * Asynchronous code in Javascript.
-* MySQL
+* MySQL.
 a|
 * Can work with relational databases.
 * Can write basic SQL queries without help.
@@ -269,16 +268,16 @@ a|
 | 13. MongoDB
 | May 2nd
 a|
-* Database paradigms
+* Database paradigms.
 * Mongodb vs. relational.
 * MongoDB in shell. 
 * MongoDB in Node.js
-* MongoDB in cloud (Atlas)
+* MongoDB in cloud (Atlas).
 a|
-* Knows different database paradigms. 
-* Can argue in what cases Mongodb excels and when it is the right choice. 
+* Knows different database paradigms.
+* Can argue in what cases Mongodb excels and when it is the right choice.
 * Can contrast and compare relational databases and Mongodb.
-* Understands the moving part of Mongodb (database, shell, driver). 
+* Understands the moving part of Mongodb (database, shell, driver).
 * Can do basic CRUD with MongoDB by heart.
 * Can use MongoDB in Node.js given a code snippet for how to set it up.
 a|
@@ -286,7 +285,7 @@ a|
 | 14. Sockets
 | May 9th
 a|
-* Web sockets with Socket.io in HTML and Svelte
+* Web sockets with Socket.io in HTML and Svelte.
 a|
 * Understands what Websockets are and the problem they solve.
 * Can work with Socket.io in both client and server.
