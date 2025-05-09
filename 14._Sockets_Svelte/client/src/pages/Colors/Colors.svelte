@@ -11,17 +11,16 @@
     let color = "#ff0000";
 
     onMount(() => {
-        socket = io("http://localhost:8080");
+        socket = io("http://localhost:8080", {
+            withCredentials: true
+        });
 
         socket.on("server-sends-color", (data) => {
             // don't do this normally, do it the svelte way
             document.body.style.backgroundColor = data.color;
 
-            // todo needs to be changed, this is hardcoded
-            const nickname = "Anders";
-
             colorsList.update((colorsListArray) => {
-                colorsListArray.push({ color: data.color, nickname })
+                colorsListArray.push({ color: data.color, nickname: data.nickname })
                 return colorsListArray;
             });
         });

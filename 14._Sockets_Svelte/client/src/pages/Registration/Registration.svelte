@@ -18,6 +18,8 @@
             body: JSON.stringify({ nickname: nicknameInput }) 
         });
 
+        localStorage.setItem("nickname", nicknameInput);
+
         nickname.set(nicknameInput);
 
     }

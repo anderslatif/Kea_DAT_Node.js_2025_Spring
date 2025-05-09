@@ -15,12 +15,14 @@ app.use(cors({
 
 import session from 'express-session';
 
-app.use(session({
+const sessionMiddleware = session({
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: true,
     cookie: { secure: false }
-}));
+});
+
+app.use(sessionMiddleware);
 
 import nicknamesRouter from './routers/nicknamesRouter.js';
 app.use(nicknamesRouter);
@@ -33,15 +35,22 @@ import { Server } from 'socket.io';
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:5173"
+        origin: "http://localhost:5173",
+        credentials: true
     }
 });
+
+io.engine.use(sessionMiddleware);
+
 
 io.on("connection", (socket) => {
     console.log("A client connected", socket.id);
 
     socket.on("client-sends-color", (data) => {
 
+        data.nickname = socket.request.session.nickname;
+        socket.request.session.timesSubmitted = (socket.request.session.timesSubmitted + 1 || 1);
+        data.timesSubmitted = socket.request.session.timesSubmitted;
         console.log(data);
 
         // emits to all sockets in the io namespace
