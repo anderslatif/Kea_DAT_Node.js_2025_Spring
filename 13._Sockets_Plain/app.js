@@ -16,8 +16,14 @@ io.on("connection", (socket) => {
     console.log("A client connected", socket.id);
 
     socket.on("client-sends-color", (data) => {
-        
-        socket.emit("server-sends-color", data);
+        // emits to all sockets in the io namespace
+        io.emit("server-sends-color", data);
+
+        // broadcasts to all other sockets but itself
+        // socket.broadcast.emit("server-sends-color", data);
+
+        // emits to the socket itself
+        // socket.emit("server-sends-color", data);
     });
 
     
