@@ -4,13 +4,18 @@
     import io from 'socket.io-client';
 
     let socket;
+    let color = "#ff0000";
 
     onMount(() => {
-        socket = io();
+        socket = io("http://localhost:8080");
+
+        socket.on("server-sends-color", (data) => {
+
+
+            // don't do this normally, do it the svelte way
+            document.body.style.backgroundColor = data.color;
+        });
     });
-
-
-    let color = "#ff0000";
 
     function submitColor() {
         socket.emit("client-sends-color", { color });
